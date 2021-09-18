@@ -63,3 +63,32 @@
 // i++;
 // }
 // console.log(empwage);
+
+
+//UC6
+// let data=require('./constant');
+// var emphrs:number=0;
+// var empwage:number=0;
+// var totalhrs:number=0;
+// var i:number=0;
+// while(i<=20){
+// let key:number =Math.floor(Math.random()*10%3)
+// switch(key){
+//     case 0:
+//     emphrs=data.fulltime;
+//     break;
+//   case 1:
+//     emphrs=data.parttime;
+//     break;
+//   default:
+//     emphrs=0;
+// }
+//   totalhrs+=emphrs;
+//   empwage+=emphrs*data.wageperhour;
+
+// if(totalhrs>=160)
+// break;
+// i++;
+// }
+// i--;
+// console.log("DAY",i,"EmpHr:",totalhrs, "EmpWage:",empwage);
