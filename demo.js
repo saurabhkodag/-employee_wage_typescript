@@ -1,24 +1,18 @@
-
 //UC1 attendance
 // let emp:number=Math.floor(Math.random()*10%2)
-
 // if(emp==0){
 //     console.log("present");
 // }
 // else{
 //     console.log("absent");
 // }
-
 //UC2 daily wage
-
 // let fulltime:number=8;
 // let wageperhour:number=20;
 // let empwage:number=0;
 // empwage=fulltime*wageperhour;
 // console.log(empwage);
-
 // console.log(empwage);
-
 //UC4 switch case
 // let fulltime:number=8;
 // let parttime:number=4;
@@ -38,8 +32,6 @@
 // }
 // empwage+=emphrs*wageperhour;
 // console.log(empwage);
-
-
 //UC5 MOntly_Wage
 // let fulltime:number=8;
 // let parttime:number=4;
@@ -63,8 +55,6 @@
 // i++;
 // }
 // console.log(empwage);
-
-
 //UC6
 // let data=require('./constant');
 // var emphrs:number=0;
@@ -85,21 +75,17 @@
 // }
 //   totalhrs+=emphrs;
 //   empwage+=emphrs*data.wageperhour;
-
 // if(totalhrs>=160)
 // break;
 // i++;
 // }
 // i--;
 // console.log("DAY",i,"EmpHr:",totalhrs, "EmpWage:",empwage);
-
-
 //UC7
 // console.log("welcome to employee wage compatation");
 // function attendance_check(){
 // const is_Absent=0;
 // let emp:number=Math.floor(Math.random()*10%2)
-
 // if(emp==1){
 //     console.log("present");
 // }
@@ -192,7 +178,6 @@
 //   emphrs=hrs(key);
 //   totalhrs+=emphrs;
 //   empwage+=emphrs*wageperhour;
-
 // if(totalhrs>=160)
 // break;
 // i++;
@@ -201,7 +186,6 @@
 // console.log("DAY",i,"EmpHr:",totalhrs, "EmpWage:",empwage);
 // }
 // var key:number=2;
-
 // switch(key){
 //     case 1:
 //         attendance_check();
@@ -222,7 +206,5 @@
 //         MaxWorkingHrs();
 //     break;
 //     default:
-        
 //     break;
-
 // }
