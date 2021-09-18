@@ -368,3 +368,39 @@
 //     day();
 //   break;
 // }
+//UC10
+// const con= require('./constant')
+// let mp = new Map();
+// function hrs(key){
+//   switch(key){
+//       case 0:
+//       emphrs=con.fulltime;
+//       break;
+//     case 1:
+//       emphrs=con.parttime;
+//       break;
+//     default:
+//       emphrs=0;
+//   }
+//   return emphrs;
+//   }
+// var emphrs:number=0;
+// var empwage:number=0;
+// var totalhrs:number=0;
+// var i:number=0;
+// while(i<=20){
+// let key:any =Math.floor(Math.random()*10%3)
+//   emphrs=hrs(key);
+//   totalhrs+=emphrs;
+// let empw:number=emphrs*con.wageperhour;
+// mp.set(i,empw);
+// if(totalhrs>=160)
+// break;
+// i++;
+// }
+// i--;
+// let sum:number=0
+// mp.forEach((value, key) => {
+//     sum+=value;
+// })
+// console.log(mp);
