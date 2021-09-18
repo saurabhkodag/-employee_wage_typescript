@@ -32,3 +32,26 @@
 // }
 // empwage+=emphrs*wageperhour;
 // console.log(empwage);
+//UC5 MOntly_Wage
+// let fulltime:number=8;
+// let parttime:number=4;
+// let wageperhour:number=20;
+// let emphrs:number=0;
+// let empwage:number=0;
+// let i:number=1;
+// while(i<=20){
+// let key:number =Math.floor(Math.random()*10%3)
+// switch(key){
+//     case 0:
+//     emphrs=fulltime;
+//     break;
+//   case 1:
+//     emphrs=parttime;
+//     break;
+//   default:
+//     emphrs=0;
+// }
+// empwage+=emphrs*wageperhour;
+// i++;
+// }
+// console.log(empwage);
